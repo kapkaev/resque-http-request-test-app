@@ -13,6 +13,6 @@ end
 
 gem 'jquery-rails'
 
-# gem "resque-http-stats", git: "git@github.com:kapkaev/em-resque-http-stats.git", :branch => "develop"
-gem "resque-http-request", :path =>'../resque-http-request'
+gem "resque-http-request", git: "git@github.com:kapkaev/resque-http-request.git", :branch => "develop"
+# gem "resque-http-request", :path =>'../resque-http-request'
 # gem "em-resque", :path =>'../tmp/em-resque'

@@ -1,0 +1,25 @@
+Ping test page
+
+<%= form_for(ping_tests_path) do |f| %>
+  <p>
+    <b>url</b><br />
+    <%= f.text_field :url, value: "http://httplogger.herokuapp.com/ilog" %>
+  </p>
+  <p>
+    <b>method</b><br />
+    <%= f.text_field :method, value: :get %>
+  </p>
+  <p>
+    <b>params</b><br />
+    <%= f.text_field :params, value: {} %>
+  </p>
+  <p>
+    <b>call times</b><br />
+    <%= f.number_field :count, value: 10 %>
+  </p>
+  <p>
+    <%= f.submit "ping" %>
+  </p>
+<% end %>
+
+<%#= link_to 'Ping! Yandex', ping_tests_path(url: "http://www.ya.ru"), method: :post %>

@@ -1,0 +1,3 @@
+rvm gemset use resque-http-request-test-app
+rvm_gemset_create_on_use_flag=1
+

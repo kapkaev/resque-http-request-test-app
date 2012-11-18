@@ -1,0 +1,5 @@
+require 'rubygems'
+require 'resque/server'
+require 'resque-http-request/server'
+require 'resque-retry'
+require 'resque-retry/server'
